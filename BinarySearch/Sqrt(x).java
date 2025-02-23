@@ -30,7 +30,7 @@ class Solution {
         int high = x;
         //search range is [1,x]
         //can be improved further ==> [1, x/2]
-        //(you need to do math to prove it: x/2 should include the sqrt(x), i.e. (x/2)^2 >= x, then x >= 2.
+        //(you need to do math to prove it: x/2 should include the sqrt(x), i.e. (x/2)^2 >= x, then x >= 4.
         
         int result = -1;
         while(low<=high){
